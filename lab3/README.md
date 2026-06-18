@@ -29,7 +29,7 @@ Generate the build files and compile the executables:
 ```bash
 cmake ..
 make
-
+```
 Usage
 After a successful build, the compiled executables will be located in the build directory.
 
@@ -38,7 +38,7 @@ After a successful build, the compiled executables will be located in the build 
 
 # Run the parallel OpenMP version
 ./task2
-```
+
 
 **Interactive input:**
 1. Enter the number of objects (`n`)
