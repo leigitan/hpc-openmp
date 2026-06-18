@@ -30,23 +30,8 @@ Generate the build files and compile the executables:
 cmake ..
 make
 
-
 Usage
 After a successful build, the compiled executables will be located in the build directory.
-
-# Run the sequential version
-./task1
-
-# Run the parallel OpenMP version
-./task2
-
-Example interactive input:
-Enter number of objects (n): 3
-Enter elements (use 0 for missing):
-A[1][2]: 2
-A[1][3]: 4
-A[2][3]: 2
-Choose method (0-arithmetic, 1-geometric): 0
 
 # Run the sequential version
 ./task1
