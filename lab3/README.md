@@ -60,8 +60,6 @@ The algorithm demonstrates **significant speedup** for larger problem sizes, ach
 | 7             | 16,807          | 1.87        |
 | 8             | 262,144         | **4.03**    |
 
->  **Detailed performance analysis, including sequential and parallel execution times, is available in results.docx.**
-
 ##  Algorithm Overview
 
 1. **Prüfer Sequence Generation**: All possible Prüfer sequences of length `(n-2)` are generated, each corresponding to a unique spanning tree (Cayley's formula: `n^(n-2)` trees).
